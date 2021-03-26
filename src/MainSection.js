@@ -192,7 +192,7 @@ const MainSection = ()=> {
       {/* TA JSX element goes here*/}
       <textarea
       ref={editRef}
-      className={`resize-none w-full h-full bg-blue-100 max-h-screen max-w-screen`} ${(!edit.showTextArea)?'':''}
+      className={`resize-none w-full h-full bg-blue-100 max-h-screen max-w-screen`}
       value={edit.text}
       onChange={(e)=>{editText(e)}}>
       </textarea>
